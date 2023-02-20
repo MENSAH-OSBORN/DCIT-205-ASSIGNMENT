@@ -1,0 +1,29 @@
+{
+  "name": "student-management-system",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "build": "npm install --production",
+    "start-dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/MENSAH-OSBORN/DCIT-205-ASSIGNMENT"
+  },
+  "author": "Osborn Mensah",
+  "license": "ISC",
+  "bugs": { 
+    "url": "https://github.com/MENSAH-OSBORN/DCIT-205-ASSIGNMENT"
+  },
+  "homepage": "https://github.com/MENSAH-OSBORN/DCIT-205-ASSIGNMENT/blob/main/README.md",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "mongoose": "^6.9.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
